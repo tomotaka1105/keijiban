@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.header_menu {
+  background-color: black;
+  height: 50px;
+  padding-left: 40px;
+}
+
+.header_contents {
+  float: left;
+  color: white;
+  padding-left: 50px;
+}
+
+.main_contents {
+  float: left;
+  width: 65%;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+
+h1 {
+  border-left: 5px solid black;
+  border-bottom: 1px double black;
+}
+
+
+form, .kiji {
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  width: 100%;
+}
+
+.kiji {
+  margin-top: 15px;
+}
+
+form div {
+  padding: 15px;
+}
+
+textarea, .text {
+  border: 1px solid #dfdfdf ;
+  padding: 5px;
+  color: #999;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 50%;
+}
+
+.submit {
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: 2px solid gray;
+}
+
+h3 {
+  border-bottom: 1px solid #dfdfdf;
+  margin: 15px 5px;
+  padding-left: 10px;
+}
+
+.contents {
+  padding: 0px 0px 15px 15px;
+}
+
+.handlename {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+footer {
+  clear: left;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 60px;
+  display: inline-block;
+}
